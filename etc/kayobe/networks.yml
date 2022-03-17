@@ -199,3 +199,15 @@
 ###############################################################################
 # Dummy variable to allow Ansible to accept this file.
 workaround_ansible_issue_8743: yes
+
+
+admin_oc_net_name: aio
+internal_net_name: aio
+external_net_names:
+  - aio
+public_net_name: aio
+tunnel_net_name: aio
+storage_net_name: aio
+storage_mgmt_net_name: aio
+aio_cidr: 192.168.33.0/24
+aio_vip_address: 192.168.33.2
